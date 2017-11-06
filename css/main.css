@@ -129,11 +129,15 @@ a:visited { color: #205caa; }
   width: calc(41.875%);
 }
 
-.site-footer ul { list-style: none; }
+.site-footer ul { 
+  list-style: none;
+  text-align: center; 
+}
 
 .site-footer li,
 .site-footer p {
   letter-spacing: -.3px;
+  text-align: center;
 }
 
 .github-icon-svg,
