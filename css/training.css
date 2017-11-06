@@ -64,6 +64,15 @@ ul.dashed > li {
 	margin-bottom: 20px;
 }
 
+.about ul {
+	max-width: 300px;
+	margin: 20px auto;
+}
+
+.about ul li {
+	text-align: left;
+}
+
 /********************* VENUE ********************/
 
 .venue-mask {
