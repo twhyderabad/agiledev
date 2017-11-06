@@ -157,7 +157,7 @@ ul.dashed > li {
 /********************* SEATS & DATES ********************/
 
 .seats-dates {
-    background: rgba(0, 0, 35, 0.5);
+    background: rgba(0, 0, 35, 0.25);
     color: white;
     padding: 30px 25px;
     text-align: center;
