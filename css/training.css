@@ -108,7 +108,7 @@ ul.dashed > li {
     line-height: 1.2em;
 }
 
-.venue-func h2 {
+.venue .venue-func  {
 
     color: lightgray;
     text-align: right;
