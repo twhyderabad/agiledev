@@ -91,7 +91,7 @@ ul.dashed > li {
     height: 100%;
     padding: 20px 100px 20px 100px;
     box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0);
 }
 
 .venue-mask .venue a {
@@ -107,8 +107,6 @@ ul.dashed > li {
     font-weight: 500;
     line-height: 1.2em;
 }
-
-
 
 .venue .date,
 .venue .time {
