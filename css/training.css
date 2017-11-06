@@ -85,6 +85,10 @@ ul.dashed > li {
 	background: rgba(0, 0, 0, 0.35);
 }
 
+.venue-mask .venue a {
+	text-decoration: none;
+}
+
 .venue h1 {
 	color: #fff;
 	font-size: 4em;
