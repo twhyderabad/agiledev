@@ -50,8 +50,7 @@
 
                 <div class="problem-statement max-wrap colored-box box-shadow">
                     <h1>Solve the problem</h1>
-                    <h2 id="problemStatement1">Problem Statement</h2>
-                    <div id="problemStatement1Desc" class="hide">
+                    <div id="problemStatement1Desc">
                         <div class="pdf-link">
                             <a href="./assets/problems/xtreme-programming-problem-statement-1.pdf" target="_blank">Download
                                 as <img src="./assets/img/pdf-document.png"></a>
@@ -128,24 +127,5 @@ Don’t worry about memory consumption.
     </div>
 
 </footer>
-
-<script type="text/javascript">
-    var problemStatement1 = document.getElementById("problemStatement1"),
-        problemStatement2 = document.getElementById("problemStatement2"),
-        problemStatement1Desc = document.getElementById("problemStatement1Desc"),
-        problemStatement2Desc = document.getElementById("problemStatement2Desc");
-
-    problemStatement1.addEventListener("click", function () {
-        problemStatement1Desc.className = problemStatement1Desc.classList.contains("hide") ?
-            "" : "hide";
-        problemStatement2Desc.className = "hide";
-    });
-
-    problemStatement2.addEventListener("click", function () {
-        problemStatement2Desc.className = problemStatement2Desc.classList.contains("hide") ?
-            "" : "hide";
-        problemStatement1Desc.className = "hide";
-    });
-</script>
 </body>
 </html>
